@@ -8,11 +8,11 @@
 * paint绘制(把边框颜色、文字颜色、阴影等画出来)
 * compose合成(根据层叠关系展示画面)
 2. 三种更新方式
-**第一种，全走** 
+* **第一种，全走** 
 * ``div.remove``会触发当前消失，其他元素relayout
-**第二种，跳过layout**
+* **第二种，跳过layout**
 * 改变背景颜色，直接repaint+composite
-**第三种，跳过layout和paint**
+* **第三种，跳过layout和paint**
 * 改变transform，只需composite
 * 注意必须全屏查看效果
 [所有属性的链接](https://csstriggers.com/)
@@ -35,4 +35,4 @@
     }
 }``
 * animation:时长 过渡方式(linear) 延迟 次数(infinite) 方向(alternate) 填充模式(forwards) 是否暂停(paused) 动画名
-3. [把小心心放在这里吧](http://js.jirengu.com/muwoy/1/edit?html,css,output)
+## [把小心心放在这里吧](http://js.jirengu.com/muwoy/1/edit?html,css,output)
