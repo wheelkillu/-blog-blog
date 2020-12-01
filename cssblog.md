@@ -7,9 +7,7 @@
 * Layout布局(文档流、盒模型、计算大小和位置)
 * paint绘制(把边框颜色、文字颜色、阴影等画出来)
 * compose合成(根据层叠关系展示画面)
-![avatar](1.png)
 2. 三种更新方式
-![avarar](2.png)
 **第一种，全走** 
 * ``div.remove``会触发当前消失，其他元素relayout
 **第二种，跳过layout**
