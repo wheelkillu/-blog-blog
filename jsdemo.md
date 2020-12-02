@@ -1,11 +1,11 @@
-## JS的诞生
-# JavaScript 的历史
+# JS的诞生
+## JavaScript 的历史
 它最初由[Netscape](https://baike.baidu.com/item/%E7%BD%91%E6%99%AF/70176?fromtitle=netscape&fromid=2778944)布兰登设计。[Ecma国际](https://baike.baidu.com/item/Ecma%E5%9B%BD%E9%99%85)以JavaScript为基础制定了[ECMAScript](https://baike.baidu.com/item/ECMAScript)标准。JavaScript也可以用于其他场合，如服务器端编程。
 Netscape在最初将其脚本语言命名为LiveScript，后来Netscape在与Sun合作之后将其改名为JavaScript。JavaScript最初受Java启发而开始设计的，目的之一就是“看上去像Java”，因此语法上有类似之处，一些名称和命名规范也借自Java。但JavaScript的主要设计原则源自Self和Scheme。JavaScript与Java名称上的近似，是当时Netscape为了营销考虑与Sun微系统达成协议的结果。为了取得技术优势，微软推出了JScript来迎战JavaScript的脚本语言。为了互用性，Ecma国际（前身为欧洲计算机制造商协会）创建了ECMA-262标准（ECMAScript）。两者都属于ECMAScript的实现。尽管JavaScript作为给非程序人员的脚本语言，而非作为给程序人员的脚本语言来推广和宣传，但是JavaScript具有非常丰富的特性。
 发展初期，JavaScript的标准并未确定，同期有Netscape的JavaScript，微软的JScript和CEnvi的ScriptEase三足鼎立。1997年，在ECMA（欧洲计算机制造商协会）的协调下，由Netscape、Sun、微软、Borland组成的工作组确定统一标准：ECMA-262。
-# JavaScript 诞生记
+## JavaScript 诞生记
 1994年，网景公司（Netscape）发布了Navigator浏览器0.9版，虽然轰动一时，但是这个版本的浏览器只能用来浏览，不具备与访问者互动的能力。所以他们急需一种网页脚本语言，使得浏览器可以与网页互动。此时，34岁的布兰登登场了。1995年4月，网景公司录用了他。布兰登的主要方向和兴趣是函数式编程，网景公司招聘他的目的，是研究将Scheme语言作为网页脚本语言的可能性。但是一个月之后，1995年5月，网景公司做出决策，未来的网页脚本语言必须"看上去与Java足够相似"，但是比Java简单，使得非专业的网页作者也能很快上手。布兰登被指定为这种"简化版Java语言"的设计师。但是，他对Java一点兴趣也没有。为了应付公司安排的任务，他只用10天时间就把Javascript设计出来了。
-# JavaScript 的10个设计缺陷
+## JavaScript 的10个设计缺陷
 1. 不适合开发大型程序
    Javascript没有名称空间，很难模块化；没有如何将代码分布在多个文件的规范；允许同名函数的重复定义，后面的定义可以覆盖前面的定义，很不利于模块化加载。
 2. 非常小的标准库
@@ -154,5 +154,5 @@ null属于对象（object）的一种，意思是该对象为空；undefined则�
 ```
 ### 参考文献：
 https://baike.baidu.com/item/javascript#4<br/>
-http://www.ruanyifeng.com/blog/2011/06/birth_of_javascript.html<br/>   
+http://www.ruanyifeng.com/blog/2011/06/birth_of_javascript.html<br/>
 http://www.ruanyifeng.com/blog/2011/06/10_design_defects_in_javascript.html
