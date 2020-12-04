@@ -55,3 +55,4 @@ console.log(2);
 {
 foo
 }
+```
