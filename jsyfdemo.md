@@ -50,6 +50,7 @@ foo:{
     console.log('本行不输出');
 }
 console.log(2);
+```
 ### 有一个代码块，里面有个标签叫做foo，foo的内容为1
 ```
 {
