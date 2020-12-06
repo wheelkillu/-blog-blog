@@ -45,7 +45,7 @@ obj.hasOwnProperty('toString')
 * 查看属性的两种方法
 1. 中括号语法(优先用)obj['key']
 2. 点语法：obj.key
-### obj.name等价于obj['name'],不等价于obj[name](这里的name是字符串而不是变量)
+### obj.name等价于obj['name'],不等价于obj[name]//这里的name是字符串而不是变量
 ### let name='frank'
 ### obj[name]等价于obj['frank']
 ## 如何修改或增加对象的属性
