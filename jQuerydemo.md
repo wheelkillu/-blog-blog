@@ -9,7 +9,7 @@ const div=$('div#test')
 const $div=$('div#test')
 ```
 这样我们就不用迷惑啦，那么下面来解决一下这么几个问题
-1. jQuery 如何获取元素
+## 一、jQuery 如何获取元素
 ```
 $('#myId')//获取ID为myId的元素
 $('#div').find('.red')//查找#div里的.red元素
@@ -21,7 +21,7 @@ $('#div').next()//获取该元素的下一个元素
 $('#div').prev()//获取该元素的上一个元素
 $('.red').each(fn)//遍历元素并对每个元素执行fn这个函数
 ```
-2. jQuery 的链式操作是怎样的
+## 二、jQuery 的链式操作是怎样的
 我们的jQuery可以对元素进行一系列操作，并且把所有的操作连接在一起，这就叫做链式操作比如
 ```
 $('#test').find('.child').addClass('red') 
@@ -32,12 +32,12 @@ $('#test')//找到#test元素
  .find('.child')//选择其中的.child元素
  .addClass('red')//对所有的.child元素加上red这个类 
 ```
-3. jQuery 如何创建元素
+## 三、jQuery 如何创建元素
 ```
 $('<div><span>1</span></div>')
 $('<p>hi</p>')
 ```
-4. jQuery 如何移动/插入元素
+## 四、jQuery 如何移动/插入元素
 在jQuery中我们有两组方法来移动元素，第一组是直接移动元素，另一组是移动其他的元素，使目标元素到达我们想要的位置</br>
 * 假如我们现在选中了一个div元素，要把div元素移动到p的后面,两种方法分别这样操作</br>
 第一种方法是使用insertAfter(),把div元素移动到p元素后面：
@@ -64,7 +64,7 @@ $('<p>Test</p>').appendTo('.inner')
 $('.inner').append('<p>Test</p>')
 ```
 同理，从现存元素内部前面插入元素就要使用.prependTo()和.prepend()
-5. jQuery 如何修改元素的属性
+## 五、jQuery 如何修改元素的属性
 我们可以使用同一个函数来完成取值和赋值（getter/setter）
 ```
 $('h1').html()//html()内没有参数，表示取出h1的值
